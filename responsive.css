@@ -19,6 +19,9 @@
         margin: 20px;
         padding: 15px;
     }
+    .text4{
+        width: 600px;
+    }
 }
 @media screen and (max-width: 600px){
     .upperbg .textbox .text1{
@@ -35,18 +38,44 @@
         width: 12vw;
         height: 12vw;
     }
+    .text4{
+        width: 500px;
+        font-size: 30px;
+    }
 }
 @media screen and (max-width: 500px){
+    nav{
+        flex-direction: column;
+    }
+    .logo{
+        padding-top: 10px;
+    }
     .boxs .box img{
         width: 60vw;
     }
+    .text4{
+        width: 400px;
+    }
 }
 @media screen and (max-width: 400px){
+    nav ul{
+        height: 10vh;
+        flex-direction: column;
+    }
+    .list{
+        margin: 10px 0;
+    }
+    .btn{
+        margin-bottom: 10px;
+    }
     .upperbg .textbox .text2{
         margin: 0 10px;
         font-size: 15px;
     }
     .textbox .text1{
         font-size: 20px;
+    }
+    .text4{
+        width: 300px;
     }
 }
