@@ -1,0 +1,52 @@
+@media screen and (max-width: 800px){
+    .upperbg img{
+        width: 40vw;
+        height: 25vw;
+        border-radius: 20px;  
+    }
+    .upperbg .textbox .text2{
+        font-size: 20px;
+    }
+    .boxs{
+        flex-direction: column;
+    }
+    .boxs .box img{
+        width: 70vw;
+        display: flex;
+        margin: auto;
+    }
+    .card .card-item{
+        margin: 20px;
+        padding: 15px;
+    }
+}
+@media screen and (max-width: 600px){
+    .upperbg .textbox .text1{
+        font-size: 25px;
+    }
+    .upperbg .textbox .text2{
+        margin: 0 20px;
+        font-size: 18px;
+    }
+    .card .card-item{
+        margin: 15px;
+    }
+    .card-item img{
+        width: 12vw;
+        height: 12vw;
+    }
+}
+@media screen and (max-width: 500px){
+    .boxs .box img{
+        width: 60vw;
+    }
+}
+@media screen and (max-width: 400px){
+    .upperbg .textbox .text2{
+        margin: 0 10px;
+        font-size: 15px;
+    }
+    .textbox .text1{
+        font-size: 20px;
+    }
+}

@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Varela+Round&display=swap');
+:root{
+    --main-bg-color:rgb(4, 87, 87);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background: var(--main-bg-color);
+    padding: 0 2vw;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    font-family: "Varela Round", sans-serif;
+    color: white;
+    padding: 0 20px;
+    font-size: 20px;
+}
+nav ul{
+    display: flex;
+    height: 8vh;
+    align-items: center;
+    justify-content: flex-end;
+}
+nav ul li{
+    list-style: none;
+    padding: 5px 10px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    
+}
+.container{
+    min-height: calc(200vh - 6vh - 10vh);
+    background: rgba(190, 250, 212, 0.912);
+}
+.content1{
+    width: 100vw;
+    height: 70vh;
+    background-position: center;
+    background-size: cover;
+    background-image: url(https://okcredit-blog-images-prod.storage.googleapis.com/2020/10/shutterstock_1484680373.jpg);
+    
+}
+.content1 .upperbg{
+    width: 100vw;
+    height: 70vh;
+    background-color: rgba(0, 0, 0, 0.45);
+
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.upperbg img{
+    margin: 5vw;
+    width: 30vw;
+    height: 20vw;
+    border-radius: 30px;
+}
+.upperbg .textbox .text1{
+    text-align: center;
+    margin: 10px 0;
+}
+.upperbg .textbox .text2{
+    margin: 0 30px;
+    font-size: 25px;
+    font-family: "Varela Round", sans-serif;
+}
+.content2{
+    margin: 30px;
+    padding: 10px;
+    border: 2px solid grey;
+    border-radius: 20px;
+    background: white;
+}
+.content2 .boxs{
+    display: flex;
+    justify-content: center;
+}
+.boxs .box{
+    padding: 10px;
+    margin: 10px 20px;
+    background: rgba(244, 243, 243, 0.912);
+    border: 2px solid grey;
+    box-shadow: 2px 2px 6px grey;
+}
+.boxs .box:hover{
+    box-shadow: 5px 5px 8px grey;
+}
+.boxs .box img{
+    width: 20vw;
+    height: 20vh;
+    
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.boxs .box .text3{
+    margin: 5px 0 0 0;
+    text-align: center;
+    font-size: 15px;
+}
+.content3 .card{
+    display: flex;
+    padding: 0 30px;
+    overflow: scroll;
+}
+.card .card-item{
+    margin: 25px;
+    background: white;
+    padding: 20px;
+    box-shadow: -1px -1px 6px rgb(74, 73, 73);
+}
+.card-item img{
+    width: 10vw;
+    height: 10vw;
+    border-radius: 10px;
+}
+.card-item h3{
+    text-align: center;
+    margin: 10px 0 0 0;
+    font-size: 15px;
+}
+.content4{
+    width: 100vw;
+    height: 50vh;
+    background-position: center;
+    background-size: cover;
+    background-image: url(https://media.licdn.com/dms/image/D5612AQG9PE-6-vKx3g/article-cover_image-shrink_720_1280/0/1704527548857?e=2147483647&v=beta&t=Vd4o5gVwfPSWSK-IWH79N67ggbvroH3bnBs1xlYk2Pg);
+}
+.content4 .darkbg{
+    width: 100vw;
+    height: 50vh;
+    background-color: rgba(0, 0, 0, 0.55);
+    color: white;
+}
+.content4 .darkbg .text4{
+    text-align: center;
+}
+footer{
+    height: 10vh;
+    background-color: var(--main-bg-color);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
