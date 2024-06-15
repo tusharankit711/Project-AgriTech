@@ -18,16 +18,20 @@
             </div>
             <ul>
                 <div class="list">
-                    <li><a href="Home.html">Home</a></li>
-                    <li><a href="About.html">About</a></li>
-                    <li><a href="Contact.html">Contact Us</a></li>
+                    <li><a href="Home.html" data-en="Home" data-hi="Home">Home</a></li>
+                    <li><a href="About.html" data-en="About" data-hi="About">About</a></li>
+                    <li><a href="Contact.html" data-en="Contact Us" data-hi="Contact Us">Contact Us</a></li>
                 </div>
 
                 <div class="btn">
-                    <button class="login"> Login</button>
-                    <button class="signup">Sign Up</button>
+                    <button class="login" data-en="Login" data-hi="Login">Login</button>
+                    <button class="signup" data-en="Sign Up" data-hi="Sign Up">Sign Up</button>
                 </div>
             </ul>
+            <div class="language-switcher">
+                <button id="en-btn">EN</button>
+                <button id="hi-btn">HI</button>
+            </div>
         </nav>
     </header>
     <main>
@@ -37,83 +41,70 @@
                     <img src="https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_848,h_565/https://www.futurefarming.com/app/uploads/2022/01/IMG_connected-848x565.jpg"
                         alt="">
                     <div class="textbox">
-                        <h1 class="text1">AgriTech</h1>
-                        <p class="text2">A web-based platform that levarages Application Programming Interfaces (APIs)
-                            to
-                            integrate various data souces and recommend best crop and fertilizer according to your data.
-                        </p>
+                        <h1 class="text1" data-en="AgriTech" data-hi="एग्रीटेक">AgriTech</h1>
+                        <p class="text2" data-en="A web-based platform that leverages Application Programming Interfaces (APIs) to integrate various data sources and recommend best crop and fertilizer according to your data." data-hi="एक वेब-आधारित प्लेटफ़ॉर्म जो आपके डेटा के अनुसार सर्वोत्तम फसल और उर्वरक की सिफारिश करने के लिए विभिन्न डेटा स्रोतों को एकीकृत करने के लिए एप्लिकेशन प्रोग्रामिंग इंटरफेस (एपीआई) का लाभ उठाता है।">A web-based platform that leverages Application Programming Interfaces (APIs) to integrate various data sources and recommend best crop and fertilizer according to your data.</p>
                     </div>
                 </div>
             </div>
             <div class="content2">
                 <div class="services">
-                    <h2 class="text-center"><b>Services we offer</b></h2>
+                    <h2 class="text-center" data-en="Services we offer" data-hi="हम जो सेवाएं प्रदान करते हैं"><b>Services we offer</b></h2>
                 </div>
                 <div class="boxs">
                     <div class="box">
-                        <img src="https://user-images.githubusercontent.com/110320717/205117082-e1333270-cba7-4c1e-a533-620b29e86ac4.jpg"
-                            alt="crop">
-                        <p class="text3"><b>Crop Recommendation</b></p>
-
+                        <img src="https://user-images.githubusercontent.com/110320717/205117082-e1333270-cba7-4c1e-a533-620b29e86ac4.jpg" alt="crop">
+                        <p class="text3" data-en="Crop Recommendation" data-hi="फसल सिफारिश"><b>Crop Recommendation</b></p>
                     </div>
                     <div class="box">
-                        <img src="https://eos.com/wp-content/uploads/2023/11/components-of-different-types-of-fertilizers.jpg"
-                            alt="Fertilizer">
-                        <p class="text3"><b>Fertilizer Suggestion</b></p>
-
+                        <img src="https://eos.com/wp-content/uploads/2023/11/components-of-different-types-of-fertilizers.jpg" alt="Fertilizer">
+                        <p class="text3" data-en="Fertilizer Suggestion" data-hi="उर्वरक सुझाव"><b>Fertilizer Suggestion</b></p>
                     </div>
                     <div class="box">
                         <img src="https://miro.medium.com/v2/resize:fit:839/1*ECFY31ja7exsbWQ2ojPrsA.png" alt="disease">
-                        <p class="text3"><b>Disease Detection</b></p>
+                        <p class="text3" data-en="Disease Detection" data-hi="रोग का पता लगाना"><b>Disease Detection</b></p>
                     </div>
                 </div>
             </div>
             <div class="content3">
-                <h2 class="text-center">Know more about your Crop</h2>
+                <h2 class="text-center" data-en="Know more about your Crop" data-hi="अपनी फसल के बारे में अधिक जानें">Know more about your Crop</h2>
                 <div class="card">
                     <div class="card-item">
-                        <img src="https://media.istockphoto.com/id/1183896276/photo/ripe-rice-and-beautiful-sky-in-daylight.jpg?s=612x612&w=0&k=20&c=W17eTu9E6egqK-5PDOBEARbf1zytAqg1AOl9RuuxQ4E="
-                            alt="rice">
-                        <h3>Rice</h3>
+                        <img src="https://media.istockphoto.com/id/1183896276/photo/ripe-rice-and-beautiful-sky-in-daylight.jpg?s=612x612&w=0&k=20&c=W17eTu9E6egqK-5PDOBEARbf1zytAqg1AOl9RuuxQ4E=" alt="Rice">
+                        <h3><a href="rice.html" style="color: black ; text-decoration: none;" data-en="Rice" data-hi="चावल">Rice</a></h3>
                     </div>
                     <div class="card-item">
-                        <img src="https://media.assettype.com/TNIE%2Fimport%2F2018%2F6%2F29%2Foriginal%2Fwheat100936_.jpg"
-                            alt="rice">
-                        <h3>Wheat</h3>
+                        <img src="https://media.assettype.com/TNIE%2Fimport%2F2018%2F6%2F29%2Foriginal%2Fwheat100936_.jpg" alt="Wheat">
+                        <h3><a href="wheat.html" style="color: black ; text-decoration: none;" data-en="Wheat" data-hi="गेहूं">Wheat</a></h3>
                     </div>
                     <div class="card-item">
-                        <img src="https://agfstorage.blob.core.windows.net/misc/FP_com/2023/11/02/Awa_edited.jpg"
-                            alt="rice">
-                        <h3>Corn</h3>
+                        <img src="https://agfstorage.blob.core.windows.net/misc/FP_com/2023/11/02/Awa_edited.jpg" alt="Corn">
+                        <h3><a href="corn.html" style="color: black ; text-decoration: none;" data-en="Corn" data-hi="मक्का">Corn</a></h3>
                     </div>
                     <div class="card-item">
-                        <img src="https://cdn.pixabay.com/photo/2013/11/01/18/21/pearl-millet-204098_1280.jpg"
-                            alt="rice">
-                        <h3>Pearl-Millet(bajra)</h3>
+                        <img src="https://cdn.pixabay.com/photo/2013/11/01/18/21/pearl-millet-204098_1280.jpg" alt="Pearl Millet(Bajra)">
+                        <h3><a href="bajra.html" style="color: black ;  text-decoration: none;" data-en="Pearl Millet(Bajra)" data-hi="बाजरा">Pearl Millet(Bajra)</a></h3>
                     </div>
                     <div class="card-item">
-                        <img src="https://englishtribuneimages.blob.core.windows.net/gallary-content/2022/11/2022_11$largeimg_1192153463.jpg"
-                            alt="rice">
-                        <h3>Pulses</h3>
+                        <img src="https://englishtribuneimages.blob.core.windows.net/gallary-content/2022/11/2022_11$largeimg_1192153463.jpg" alt="Pulses">
+                        <h3><a href="pulses.html" style="color: black ; text-decoration: none;" data-en="Pulses" data-hi="दालें">Pulses</a></h3>
                     </div>
                     <div class="card-item">
-                        <img src="https://media.istockphoto.com/id/1135682778/photo/bright-yellow-field-of-canola.jpg?s=612x612&w=0&k=20&c=aBf8MV0BM_ev66ZXswYKYI0FJ_qTpBb2_DjcFQN-JLs="
-                            alt="rice">
-                        <h3>Mustard</h3>
+                        <img src="https://media.istockphoto.com/id/1135682778/photo/bright-yellow-field-of-canola.jpg?s=612x612&w=0&k=20&c=aBf8MV0BM_ev66ZXswYKYI0FJ_qTpBb2_DjcFQN-JLs=" alt="Mustard">
+                        <h3><a href="mustard.html" style="color: black ; text-decoration: none;" data-en="Mustard" data-hi="सरसों">Mustard</a></h3>
                     </div>
                 </div>
             </div>
             <div class="content4">
                 <div class="overlay">
-                    <p class="text4"><b>Sustainable Farming Meets Technology: Building a Greener Future</b></p>
+                    <p class="text4" data-en="Sustainable Farming Meets Technology: Building a Greener Future" data-hi="Sustainable Farming Meets Technology: Building a Greener Future"><b>Sustainable Farming Meets Technology: Building a Greener Future</b></p>
                 </div>
             </div>
         </div>
     </main>
     <footer>
-        <p>copyright &copy; All Rights Reserved</p>
+        <p data-en="Copyright &copy; All Rights Reserved" data-hi="Copyright &copy; All Rights Reserved">Copyright &copy; All Rights Reserved</p>
     </footer>
-     <script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>
