@@ -160,7 +160,7 @@ nav ul li a {
 .content3 .card {
     display: flex;
     padding: 0 30px;
-    overflow: scroll;
+    overflow: hidden;
 }
 
 .card .card-item {
