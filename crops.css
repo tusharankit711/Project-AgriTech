@@ -50,3 +50,79 @@ html {
   padding: 0 .5rem;
   margin: .2rem 0 .5rem 0;
 }
+
+.image {
+  float: right;
+}
+
+.container1 {
+  height: 250px;
+}
+
+.image1 {
+  margin-top: 3.25%;
+  height: 200px;
+}
+
+.container2 {
+  height: 250px;
+}
+
+.image2 {
+  margin-top: 3.25%;
+  height: 200px;
+}
+
+.container3 {
+  height: 250px;
+}
+
+.image3 {
+  margin-top: 3.25%;
+  height: 200px;
+}
+
+.container4 {
+  height: 300px;
+}
+
+.image4 {
+  margin-top: 3.25%;
+  height: 250px;
+}
+
+.container5 {
+  height: 305px;
+}
+
+.image5 {
+  margin-top: 3.25%;
+  height: 252px;
+}
+
+.container6 {
+  height: 450px;
+}
+
+.image6 {
+  margin-top: 7%;
+  height: 300px;
+}
+
+.container7 {
+  height: 300px;
+}
+
+.image7 {
+  margin-top: 3.25%;
+  height: 250px;
+}
+
+.container8 {
+  height: 250px;
+}
+
+.image8 {
+  margin-top: 3.25%;
+  height: 250px;
+}
