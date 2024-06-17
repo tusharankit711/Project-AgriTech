@@ -4,7 +4,10 @@
 :root {
     --main-bg-color: rgb(4, 87, 87);
 }
-
+.text-center{
+    text-align: center;
+    color: var(--main-bg-color);
+}
 * {
     margin: 0;
     padding: 0;
