@@ -26,10 +26,20 @@ nav {
 }
 
 .logo {
+    display: flex;
     font-family: "Varela Round", sans-serif;
-    color: white;
-    padding: 0 15px;
-    font-size: 20px;
+    padding: 0 10px;
+    font-size: 25px;
+    font-weight: bolder;
+}
+.logo img{
+    margin-right: 5px;
+}
+.logo .agri{
+    color: rgb(10, 191, 10);
+} 
+.logo .tech{
+    color: rgb(27, 151, 213);
 }
 
 nav ul .list {
