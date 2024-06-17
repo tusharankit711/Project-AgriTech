@@ -1,0 +1,477 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --greyCol: #d3d3d3;
+  --whiteCol: #fff;
+  --main-bg-color: rgb(4, 87, 87);
+}
+
+html {
+  color: var(--whiteCol);
+  background-color: var(--main-bg-color);
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.mainHeading {
+  text-align: center;
+  font-weight: 500;
+  font-size: 6.2rem;
+}
+
+.subHeading {
+  color: var(--main-bg-color);
+  background-color: var(--greyCol);
+  text-align: left;
+  font-weight: 600;
+  font-size: 2.5rem;
+  padding: 0 .5rem;
+}
+
+.title {
+  text-align: left;
+  font-weight: 400;
+  font-size: 1.8rem;
+  padding: 0 .5rem;
+  margin: .3rem 0;
+}
+
+.info {
+  text-align: left;
+  font-weight: 600;
+  font-size: 1.2rem;
+  padding: 0 .5rem;
+  margin: .2rem 0 .5rem 0;
+}
+
+.image {
+  float: right;
+}
+
+.container1 {
+  height: 250px;
+}
+
+.image1 {
+  margin-top: 3.25%;
+  height: 200px;
+}
+
+.container2 {
+  height: 250px;
+}
+
+.image2 {
+  margin-top: 3.25%;
+  height: 200px;
+}
+
+.container3 {
+  height: 250px;
+}
+
+.image3 {
+  margin-top: 3.25%;
+  height: 200px;
+}
+
+.container4 {
+  height: 300px;
+}
+
+.image4 {
+  margin-top: 3.25%;
+  height: 250px;
+}
+
+.container5 {
+  height: 305px;
+}
+
+.image5 {
+  margin-top: 3.25%;
+  height: 252px;
+}
+
+.container6 {
+  height: 450px;
+}
+
+.image6 {
+  margin-top: 3.25%;
+  height: 300px;
+}
+
+.container7 {
+  height: 300px;
+}
+
+.image7 {
+  margin-top: 3.25%;
+  height: 250px;
+}
+
+.container8 {
+  height: 250px;
+}
+
+.image8 {
+  margin-top: 3.25%;
+  height: 250px;
+}
+
+.container5-wheat {
+  height: 450px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --greyCol: #d3d3d3;
+  --whiteCol: #fff;
+  --main-bg-color: rgb(4, 87, 87);
+}
+
+html {
+  color: var(--whiteCol);
+  background-color: var(--main-bg-color);
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.mainHeading {
+  text-align: center;
+  font-weight: 500;
+  font-size: 6.2rem;
+}
+
+.subHeading {
+  color: var(--main-bg-color);
+  background-color: var(--greyCol);
+  text-align: left;
+  font-weight: 600;
+  font-size: 2.5rem;
+  padding: 0 .5rem;
+}
+
+.title {
+  text-align: left;
+  font-weight: 400;
+  font-size: 1.8rem;
+  padding: 0 .5rem;
+  margin: .3rem 0;
+}
+
+.info {
+  text-align: left;
+  font-weight: 600;
+  font-size: 1.2rem;
+  padding: 0 .5rem;
+  margin: .2rem 0 .5rem 0;
+}
+
+.image {
+  float: right;
+}
+
+.container1 {
+  height: 250px;
+}
+
+.image1 {
+  margin-top: 3.25%;
+  height: 200px;
+}
+
+.container2 {
+  height: 250px;
+}
+
+.image2 {
+  margin-top: 3.25%;
+  height: 200px;
+}
+
+.container3 {
+  height: 250px;
+}
+
+.image3 {
+  margin-top: 3.25%;
+  height: 200px;
+}
+
+.container4 {
+  height: 300px;
+}
+
+.image4 {
+  margin-top: 3.25%;
+  height: 250px;
+}
+
+.container5 {
+  height: 450px;
+}
+
+.image5 {
+  margin-top: 3.25%;
+  height: 252px;
+}
+
+.container6 {
+  height: 450px;
+}
+
+.image6 {
+  margin-top: 3.25%;
+  height: 300px;
+}
+
+.container7 {
+  height: 300px;
+}
+
+.image7 {
+  margin-top: 3.25%;
+  height: 250px;
+}
+
+.container8 {
+  height: 250px;
+}
+
+.image8 {
+  margin-top: 3.25%;
+  height: 250px;
+}
+
+.container5-rice {
+  height: 305px;
+}
+
+/* media queries for crops */
+@media screen and (width <= 480px) {
+  .mainHeading {
+    font-size: 3.2rem;
+    margin: .3rem;
+  }
+  
+  .subHeading {
+    font-weight: 600;
+    font-size: 2rem;
+    padding: 0 .5rem;
+  }
+  
+  .title {
+    font-weight: 500;
+    font-size: 1.8rem;
+    padding: 0 .5rem;
+    margin: .3rem 0;
+  }
+  
+  .info {
+    font-weight: 500;
+    font-size: 1.2rem;
+    padding: 0 .5rem;
+    margin: .2rem 0 .5rem 0;
+  }
+  
+  .container1 {
+    height: 440px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .container1-corn {
+    height: 420px;
+  }
+  
+  .container1-pearl {
+    height: 420px;
+  }
+  
+  .container1-grams {
+    height: 400px;
+  }
+
+  .container1-mustard {
+    height: 400px;
+  }
+  
+  .image1 {
+    height: 200px;
+  }
+  
+  .container2 {
+    height: 580px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .container2-corn {
+    height: 610px;
+  }
+  
+  .container2-wheat {
+    height: 600px;
+  }
+  
+  .container2-pearl {
+    height: 560px;
+  }
+
+  .container2-grams {
+    height: 610px;
+  }
+
+  .container2-mustard {
+    height: 610px;
+  }
+  
+  .image2 {
+    margin-top: 3.25%;
+    height: 200px;
+  }
+  
+  .container3 {
+    height: 460px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .image3 {
+    margin-top: 3.25%;
+    height: 200px;
+  }
+  
+  .container4 {
+    height: 720px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .container4-wheat {
+    height: 670px;
+  }
+  
+  .container4-pearl {
+    height: 670px;
+  }
+  
+  .image4 {
+    margin-top: 3.25%;
+    height: 250px;
+  }
+  
+  .container5 {
+    height: 710px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .container5-rice {
+    height: 710px;
+  }
+
+  .container5-wheat {
+    height: 1010px;
+  }
+
+  .container5-pearl {
+    height: 780px;
+  }
+
+  .container5-grams {
+    height: 850px;
+  }
+  
+  .container5-mustard {
+    height: 850px;
+  }
+  
+  .container5-corn {
+    height: 1050px;
+  }
+
+  .image5 {
+    margin-top: 3.25%;
+    height: 252px;
+  }
+  
+  .container6 {
+    height: 1060px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .container6-corn {
+    height: 900px;
+  }
+  
+  .container6-wheat{
+    height: 900px;
+  }
+
+  .container6-pearl {
+    height: 1180px;
+  }
+  
+  .container6-grams {
+    height: 1170px;
+  }
+  
+  .container6-mustard {
+    height: 1130px;
+  }
+
+  .image6 {
+    margin-top: 3.25%;
+    height: 300px;
+  }
+  
+  .container7 {
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .image7 {
+    margin-top: 3.25%;
+    height: 250px;
+  }
+  
+  .container8 {
+    height: 420px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+  }
+  
+  .image8 {
+    margin-top: 3.25%;
+    height: 250px;
+  }
+}
