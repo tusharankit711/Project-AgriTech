@@ -138,12 +138,16 @@
     </p>
   </div>
 
-  <script>
-    function switchLanguage(lang) {
-      document.querySelectorAll('[data-en]').forEach(el => {
-        el.textContent = el.getAttribute('data-' + lang);
-      });
-    }
-  </script>
+ <script>
+  function switchLanguage(lang) {
+    document.querySelectorAll('[data-en]').forEach(el => {
+      el.textContent = el.getAttribute('data-' + lang);
+    });
+  }
+
+  document.addEventListener('DOMContentLoaded', () => {
+    switchLanguage('en');
+  });
+</script>
 </body>
 </html>
