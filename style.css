@@ -221,6 +221,7 @@ nav ul li a {
     font-size: 40px;
     font-family: "Prompt", sans-serif;
     width: 800px;
+    font-weight: bold;
 } 
 footer {
     height: 10vh;
