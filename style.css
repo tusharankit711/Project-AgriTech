@@ -155,6 +155,7 @@ nav ul li a {
 
 .boxs .box:hover {
     box-shadow: 5px 5px 8px grey;
+    border: 2px solid black;
 }
 
 .boxs .box img {
