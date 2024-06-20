@@ -158,8 +158,8 @@ nav ul li a {
 }
 
 .boxs .box img {
-    width: 20vw;
-    height: 20vh;
+    width: 50vw;
+    height: 30vh;
 
     border: 2px solid black;
     border-radius: 10px;
