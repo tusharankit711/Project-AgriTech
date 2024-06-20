@@ -20,7 +20,7 @@
 .login{
     height: 300px;
     width: 400px;
-    background-color:#f0f2f2;
+    background-color: transparent;
     border-radius: 1rem;
     display: flex;
     justify-content: center;
@@ -30,17 +30,20 @@
 
 .login form input{
     width: 135%;
-    border-radius: 0.3rem;
+    height: 30px;
+    border-radius: 1rem;
 }
 
 .login form select{
     width: 135%;
-    border-radius: 0.35rem;
+    height: 30px;
+    border-radius: 1rem;
 }
 
 .login form button{
-    width : 100%;
-    border-radius: 0.2rem;
+    width : 130%;
+    border-radius: 1rem;
+    height: 30px;
     cursor: pointer;
     background-color: rgb(4, 87, 87);
 }
@@ -117,17 +120,17 @@
         document.querySelector('button').addEventListener('click', function(event) {
     event.preventDefault();
     
-    // Get the values of the inputs
+ 
     const phoneOrEmail = document.querySelector('input[type="text"]').value;
     const password = document.querySelector('input[type="password"]').value;
     const state = document.querySelector('select').value;
 
-    // Simple validation
+    
     if (phoneOrEmail === "" || password === "" || state === "") {
-        alert("Please fill in all fields.");
+        
     } else {
-        alert("Login successful!");
-        // Here you can add more actions like form submission, etc.
+        
+        
     }
 });
     </script>
