@@ -1,51 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Varela+Round&display=swap');
 *{
   margin:0;
   padding:0;
 }
+:root {
+  --main-bg-color: rgb(4, 87, 87);
+}
+header {
+  background: var(--main-bg-color);
+  padding: 0 2vw;
+}
 
-.navbar{
-  display:flex;
+nav {
+  display: flex;
   align-items: center;
-  justify-content: center;
-  position: sticky;
-  top: 0;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  font-family: "Varela Round", sans-serif;
+  padding: 0 10px;
+  font-size: 25px;
+  font-weight: bolder;
+}
+.logo img{
+  margin-right: 5px;
+}
+.logo .agri{
+  color: rgb(10, 191, 10);
+} 
+.logo .tech{
+  color: rgb(27, 151, 213);
+}
+
+nav ul .list {
+  display: flex;
+}
+
+nav ul {
+  display: flex;
+  height: 8vh;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+nav ul li {
+  list-style: none;
+  padding: 5px 10px;
+  font-size: 17px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.btn .login {
+  padding: 2px 10px;
+  margin: 0 10px;
+  color: var(--main-bg-color);
+  background: white;
+  border: 2px solid white;
+  font-size: 15px;
   cursor: pointer;
 }
-
-.nav-list{
-  width:70%;
-  display:flex;
-  align-items: center;
+.btn .login:hover{
+  box-shadow: 1px 1px 3px white;
 }
 
-.nav-list li{
-  list-style: none;
-  padding: 10px 10px;
+.btn .signup {
+  padding: 2px 6px;
+  color: white;
+  background: var(--main-bg-color);
+  border: 2px solid white;
+  font-size: 15px;
+  cursor: pointer;
 }
-
-.nav-list li a{
-  text-decoration:none;
-  color:white;
-  font-size: 16px;
-  font-family: 'Ubuntu',sans-serif;
+.btn .signup:hover{
+  box-shadow: 1px 1px 4px white;
+  
 }
-
-.nav-list li a:hover{
-  color:grey;
-}
-
-.rightnav{
-  width:30%;
-  text-align: right;
-}
-
-#search{
-  padding:8px;
-  font-size:14px;
-  border:2px solid grey;
-  border-radius:10px;
-}
-
 .background{
   background: rgba(0, 0, 0, 0.7)url('../image/bg2.jpg');
   background-size:cover;
