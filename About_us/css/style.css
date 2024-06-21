@@ -88,6 +88,7 @@ nav ul li a {
 }
 
 .text-big{
+  font-weight: bold;
   font-size: 3vw;
   font-family: 'Stencil';
 }
