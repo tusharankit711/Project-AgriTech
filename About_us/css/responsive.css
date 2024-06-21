@@ -19,6 +19,7 @@
         margin-left: 3vw;
     }
     .section{
+        max-width: 100%;
         margin: 10px auto;
         flex-direction: column-reverse;
     }
@@ -40,7 +41,7 @@
     .thumbnail img{
         width:80vw;
         height: 40vw;
-        border-radius: 40px;        
+        border-radius: 30px;        
       }
 }
 @media screen and (max-width: 400px){
@@ -49,5 +50,8 @@
       }
       .text-small{
         font-size: 5vw;
+      }
+    .thumbnail img{
+        border-radius: 25px;        
       }
 }
