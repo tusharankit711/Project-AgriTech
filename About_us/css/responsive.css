@@ -1,0 +1,53 @@
+@media screen and (max-width: 650px){
+    nav{
+        flex-direction: column;
+    }
+    nav ul{
+        height: 6vh;
+    }
+    .list{
+        margin: 10px 0;
+    }
+    .logo{
+        padding-top: 10px;
+    }
+    .btn{
+        margin-bottom: 10px;
+        justify-content: flex-end;
+    }
+    .btn .login{
+        margin-left: 3vw;
+    }
+    .section{
+        margin: 10px auto;
+        flex-direction: column-reverse;
+    }
+    .sectionTag{
+        padding :15px 0;
+      }
+
+    .text-big{
+        font-size: 6vw;
+        text-align: center;
+      }
+      .text-medium{
+        font-size: 5vw;
+      }
+      .text-small{
+        font-size: 4vw;
+      }
+      
+    .thumbnail img{
+        width:80vw;
+        height: 40vw;
+        border-radius: 40px;        
+      }
+}
+@media screen and (max-width: 400px){
+    .text-medium{
+        font-size: 5.5vw;
+      }
+      .text-small{
+        font-size: 5vw;
+      }
+}
