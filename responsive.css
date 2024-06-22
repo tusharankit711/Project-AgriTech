@@ -89,10 +89,13 @@
         height: 20vh;
     }
     .content2a{
-        margin: 10px 5vw;
+        margin: 10px 3vw;
+    }
+    .content2a img{
+        height: 30vw;
     }
     .content2a .text2a p{
-        font-size: 4vw;
+        font-size: 4.5vw;
     }
     .text2a .more{
         padding: 0 5px;
