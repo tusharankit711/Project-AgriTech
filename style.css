@@ -115,7 +115,6 @@ nav ul li a {
 }
 
 .container {
-    min-height: calc(200vh - 6vh - 10vh);
     background: rgba(209, 248, 224, 0.912);
 }
 
