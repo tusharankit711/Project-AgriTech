@@ -202,7 +202,7 @@ nav ul li a {
 .content2a .text2a p{
     margin: auto;
     color: var(--main-bg-color);
-    font-size: 3.5vw;
+    font-size: 3.75vw;
     font-family: "Prompt", sans-serif;
     font-weight: bold; 
 }
@@ -223,7 +223,7 @@ nav ul li a {
     color: white;
 }
 .content2a img{
-    height: 20vw;
+    height: 22vw;
     width: 40vw;
     border-radius: 50px;
 }
