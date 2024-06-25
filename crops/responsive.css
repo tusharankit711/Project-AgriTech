@@ -1,0 +1,50 @@
+@media screen and (max-width: 1000px){
+    html{
+        font-size: 14px;
+    }
+    .image{
+        width: 300px;
+        height: 200px;
+    }
+}
+@media screen and (max-width: 700px){
+    nav{
+        flex-direction: column;
+    }
+    nav ul{
+        height: 6vh;
+    }
+    .list{
+        margin: 10px 0;
+    }
+    .logo{
+        padding-top: 10px;
+    }
+    .btn{
+        margin-bottom: 10px;
+        justify-content: flex-end;
+    }
+    .content{
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    .mainHeading {
+        font-size: 4.5rem;
+      }
+    .image{
+        width: 70vw;
+        height: 30vw;
+    }
+}
+@media screen and (max-width: 500px){
+    .image{
+        width: 90vw;
+        height: 40vw;
+    }
+}
+@media screen and (max-width: 400px){
+    html{
+        font-size: 12px;
+    }
+}
