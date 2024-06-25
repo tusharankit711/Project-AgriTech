@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --greyCol: #d3d3d3;
+  --whiteCol: #fff;
+  --main-bg-color: rgb(4, 87, 87);
+}
+header {
+    background: var(--main-bg-color);
+    padding: 0 2vw;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    font-family: "Varela Round", sans-serif;
+    padding: 0 10px;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.logo img {
+    margin-right: 5px;
+}
+
+.logo .agri {
+    color: rgb(10, 191, 10);
+}
+
+.logo .tech {
+    color: rgb(27, 151, 213);
+}
+
+nav ul .list {
+    display: flex;
+}
+
+nav ul {
+    display: flex;
+    height: 8vh;
+    align-items: center;
+    
+}
+
+nav ul li {
+    list-style: none;
+    padding: 5px 10px;
+    font-size: 17px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.btn {
+    display: flex;
+}
+
+.btn .language-switcher {
+    margin: auto 10px auto 0;
+}
+.language-switcher .eng{
+    cursor: pointer;
+    padding: 3px;
+}
+.language-switcher .hin{
+    cursor: pointer;
+    padding: 3px;
+}
+
+.btn .login {
+    padding: 4px 10px;
+    margin: 0 10px;
+    color: var(--main-bg-color);
+    background: white;
+    border: 2px solid white;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.btn .login:hover {
+    box-shadow: 1px 1px 3px white;
+}
+
+.btn .signup {
+    padding: 4px 6px;
+    color: white;
+    background: var(--main-bg-color);
+    border: 2px solid white;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.btn .signup:hover {
+    box-shadow: 1px 1px 4px white;
+
+}
+
+
+html {
+  color: var(--whiteCol);
+  background-color: var(--main-bg-color);
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.mainHeading {
+  text-align: center;
+  font-weight: 500;
+  font-size: 5.5rem;
+}
+
+.subHeading {
+  color: var(--main-bg-color);
+  background-color: var(--greyCol);
+  text-align: left;
+  font-weight: 600;
+  font-size: 2.5rem;
+  padding: 0 .5rem;
+}
+.content{
+  display: flex;
+  justify-content: space-between;
+}
+
+.title {
+  text-align: left;
+  font-weight: 400;
+  font-size: 2rem;
+  padding: 0 .5rem;
+  margin: .3rem 0;
+}
+
+.info {
+  text-align: left;
+  font-weight: 600;
+  font-size: 1.3rem;
+  padding: 0 .5rem;
+  margin: .2rem 0 .5rem 0;
+}
+.image{
+  width: 30vw;
+  height: 20vw;
+  margin: 10px;
+}
+.separator {
+  background-color: var(--whiteCol);
+  width: 100%;
+  height: 2px;
+}
+footer {
+  height: 10vh;
+  background-color: var(--main-bg-color);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
