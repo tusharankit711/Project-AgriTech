@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Varela+Round&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap');
 
 * {
@@ -11,6 +12,103 @@
   --whiteCol: #fff;
   --main-bg-color: rgb(4, 87, 87);
 }
+header {
+    background: var(--main-bg-color);
+    padding: 0 2vw;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    font-family: "Varela Round", sans-serif;
+    padding: 0 10px;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.logo img {
+    margin-right: 5px;
+}
+
+.logo .agri {
+    color: rgb(10, 191, 10);
+}
+
+.logo .tech {
+    color: rgb(27, 151, 213);
+}
+
+nav ul .list {
+    display: flex;
+}
+
+nav ul {
+    display: flex;
+    height: 8vh;
+    align-items: center;
+    
+}
+
+nav ul li {
+    list-style: none;
+    padding: 5px 10px;
+    font-size: 17px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.btn {
+    display: flex;
+}
+
+.btn .language-switcher {
+    margin: auto 10px auto 0;
+}
+.language-switcher .eng{
+    cursor: pointer;
+    padding: 3px;
+}
+.language-switcher .hin{
+    cursor: pointer;
+    padding: 3px;
+}
+
+.btn .login {
+    padding: 4px 10px;
+    margin: 0 10px;
+    color: var(--main-bg-color);
+    background: white;
+    border: 2px solid white;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.btn .login:hover {
+    box-shadow: 1px 1px 3px white;
+}
+
+.btn .signup {
+    padding: 4px 6px;
+    color: white;
+    background: var(--main-bg-color);
+    border: 2px solid white;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.btn .signup:hover {
+    box-shadow: 1px 1px 4px white;
+
+}
+
 
 html {
   color: var(--whiteCol);
@@ -23,7 +121,7 @@ html {
 .mainHeading {
   text-align: center;
   font-weight: 500;
-  font-size: 6.2rem;
+  font-size: 5.5rem;
 }
 
 .subHeading {
@@ -34,11 +132,15 @@ html {
   font-size: 2.5rem;
   padding: 0 .5rem;
 }
+.content{
+  display: flex;
+  justify-content: space-between;
+}
 
 .title {
   text-align: left;
   font-weight: 400;
-  font-size: 1.8rem;
+  font-size: 2rem;
   padding: 0 .5rem;
   margin: .3rem 0;
 }
@@ -46,438 +148,25 @@ html {
 .info {
   text-align: left;
   font-weight: 600;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   padding: 0 .5rem;
   margin: .2rem 0 .5rem 0;
 }
-
-.image {
-  float: right;
+.image{
+  width: 30vw;
+  height: 20vw;
+  margin: 10px;
 }
-
-.container1 {
-  height: 250px;
-}
-
-.image1 {
-  margin-top: 3.25%;
-  height: 200px;
-}
-
-.container2 {
-  height: 250px;
-}
-
-.image2 {
-  margin-top: 3.25%;
-  height: 200px;
-}
-
-.container3 {
-  height: 250px;
-}
-
-.image3 {
-  margin-top: 3.25%;
-  height: 200px;
-}
-
-.container4 {
-  height: 300px;
-}
-
-.image4 {
-  margin-top: 3.25%;
-  height: 250px;
-}
-
-.container5 {
-  height: 305px;
-}
-
-.image5 {
-  margin-top: 3.25%;
-  height: 252px;
-}
-
-.container6 {
-  height: 450px;
-}
-
-.image6 {
-  margin-top: 3.25%;
-  height: 300px;
-}
-
-.container7 {
-  height: 300px;
-}
-
-.image7 {
-  margin-top: 3.25%;
-  height: 250px;
-}
-
-.container8 {
-  height: 250px;
-}
-
-.image8 {
-  margin-top: 3.25%;
-  height: 250px;
-}
-
-.container5-wheat {
-  height: 450px;
-}
-
 .separator {
   background-color: var(--whiteCol);
   width: 100%;
   height: 2px;
 }
-
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap');
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-:root {
-  --greyCol: #d3d3d3;
-  --whiteCol: #fff;
-  --main-bg-color: rgb(4, 87, 87);
-}
-
-html {
-  color: var(--whiteCol);
+footer {
+  height: 10vh;
   background-color: var(--main-bg-color);
-  font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
-}
-
-.mainHeading {
-  text-align: center;
-  font-weight: 500;
-  font-size: 6.2rem;
-}
-
-.subHeading {
-  color: var(--main-bg-color);
-  background-color: var(--greyCol);
-  text-align: left;
-  font-weight: 600;
-  font-size: 2.5rem;
-  padding: 0 .5rem;
-}
-
-.title {
-  text-align: left;
-  font-weight: 400;
-  font-size: 1.8rem;
-  padding: 0 .5rem;
-  margin: .3rem 0;
-}
-
-.info {
-  text-align: left;
-  font-weight: 600;
-  font-size: 1.2rem;
-  padding: 0 .5rem;
-  margin: .2rem 0 .5rem 0;
-}
-
-.image {
-  float: right;
-}
-
-.container1 {
-  height: 250px;
-}
-
-.image1 {
-  margin-top: 3.25%;
-  height: 200px;
-}
-
-.container2 {
-  height: 250px;
-}
-
-.image2 {
-  margin-top: 3.25%;
-  height: 200px;
-}
-
-.container3 {
-  height: 250px;
-}
-
-.image3 {
-  margin-top: 3.25%;
-  height: 200px;
-}
-
-.container4 {
-  height: 300px;
-}
-
-.image4 {
-  margin-top: 3.25%;
-  height: 250px;
-}
-
-.container5 {
-  height: 450px;
-}
-
-.image5 {
-  margin-top: 3.25%;
-  height: 252px;
-}
-
-.container6 {
-  height: 450px;
-}
-
-.image6 {
-  margin-top: 3.25%;
-  height: 300px;
-}
-
-.container7 {
-  height: 300px;
-}
-
-.image7 {
-  margin-top: 3.25%;
-  height: 250px;
-}
-
-.container8 {
-  height: 250px;
-}
-
-.image8 {
-  margin-top: 3.25%;
-  height: 250px;
-}
-
-.container5-rice {
-  height: 305px;
-}
-
-/* media queries for crops */
-@media screen and (width <= 480px) {
-  .mainHeading {
-    font-size: 3.2rem;
-    margin: .3rem;
-  }
-  
-  .subHeading {
-    font-weight: 600;
-    font-size: 2rem;
-    padding: 0 .5rem;
-  }
-  
-  .title {
-    font-weight: 500;
-    font-size: 1.8rem;
-    padding: 0 .5rem;
-    margin: .3rem 0;
-  }
-  
-  .info {
-    font-weight: 500;
-    font-size: 1.2rem;
-    padding: 0 .5rem;
-    margin: .2rem 0 .5rem 0;
-  }
-  
-  .container1 {
-    height: 440px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
-  
-  .container1-corn {
-    height: 420px;
-  }
-  
-  .container1-pearl {
-    height: 420px;
-  }
-  
-  .container1-grams {
-    height: 400px;
-  }
-
-  .container1-mustard {
-    height: 400px;
-  }
-  
-  .image1 {
-    height: 200px;
-  }
-  
-  .container2 {
-    height: 580px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
-  
-  .container2-corn {
-    height: 610px;
-  }
-  
-  .container2-wheat {
-    height: 600px;
-  }
-  
-  .container2-pearl {
-    height: 560px;
-  }
-
-  .container2-grams {
-    height: 610px;
-  }
-
-  .container2-mustard {
-    height: 610px;
-  }
-  
-  .image2 {
-    margin-top: 3.25%;
-    height: 200px;
-  }
-  
-  .container3 {
-    height: 460px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
-  
-  .image3 {
-    margin-top: 3.25%;
-    height: 200px;
-  }
-  
-  .container4 {
-    height: 720px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
-  
-  .container4-wheat {
-    height: 670px;
-  }
-  
-  .container4-pearl {
-    height: 670px;
-  }
-  
-  .image4 {
-    margin-top: 3.25%;
-    height: 250px;
-  }
-  
-  .container5 {
-    height: 710px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
-
-  .container5-rice {
-    height: 710px;
-  }
-
-  .container5-wheat {
-    height: 1010px;
-  }
-
-  .container5-pearl {
-    height: 780px;
-  }
-
-  .container5-grams {
-    height: 850px;
-  }
-  
-  .container5-mustard {
-    height: 850px;
-  }
-  
-  .container5-corn {
-    height: 1050px;
-  }
-
-  .image5 {
-    margin-top: 3.25%;
-    height: 252px;
-  }
-  
-  .container6 {
-    height: 1060px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
-  
-  .container6-corn {
-    height: 900px;
-  }
-  
-  .container6-wheat{
-    height: 900px;
-  }
-
-  .container6-pearl {
-    height: 1180px;
-  }
-  
-  .container6-grams {
-    height: 1170px;
-  }
-  
-  .container6-mustard {
-    height: 1130px;
-  }
-
-  .image6 {
-    margin-top: 3.25%;
-    height: 300px;
-  }
-  
-  .container7 {
-    height: 550px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
-  
-  .image7 {
-    margin-top: 3.25%;
-    height: 250px;
-  }
-  
-  .container8 {
-    height: 420px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    margin-bottom: 3rem;
-  }
-  
-  .image8 {
-    margin-top: 3.25%;
-    height: 250px;
-  }
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
