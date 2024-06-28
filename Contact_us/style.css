@@ -11,12 +11,12 @@
     display:flex;
     justify-content: center;
     align-items: center;
-    background: url("bg.png") no-repeat center center/cover;
+    background: url("https://github.com/tusharankit711/Project-AgriTech/blob/main/Contact_us/bg.png?raw=true") no-repeat center center/cover;
 }
 
 .container form{
-    width: 650px;
-    height: 450px;
+    width: 50vw;
+    height: 35vw;
     display: flex;
     justify-content: center;
     box-sizing: 20px 20px 50px rgba(8, 8, 8, 0.5);
@@ -35,7 +35,7 @@
 }
 
 .container form input{
-    width: 290px;
+    width: 20vw;
     height: 40px;
     padding-left: 10px;
     outline: none;
@@ -58,7 +58,7 @@
 .container form h4{
     color: #fff;
     font-weight:300;
-    width:600px;
+    width:40vw;
     margin-top:20px;
 }
 
@@ -71,7 +71,7 @@
     font-size: 15px;
     padding: 10px;
     outline: none;
-    min-width: 600px;
+    min-width: 40vw;
     max-width: 600px;
     min-height: 80px;
     max-height: 80px;
@@ -85,7 +85,7 @@ textarea::-webkit-scrollbar-thumb{
     background-color: rgba(194,194,194,0.713);
 }
 
-.container form button{
+.container form .button{
     border: none;
     background: #fff;
     border-radius: 5px;
@@ -93,13 +93,11 @@ textarea::-webkit-scrollbar-thumb{
     font-weight: 600;
     font-size: 24px;
     color:#333;
-    width: 10px;
+    margin: auto;
     padding: 0;
-    margin-right: 500px;
-    margin-bottom: 30px;
     transition: 0.3s;
 }
 
-.container form #button:hover{
+.container form .button:hover{
     opacity:0.7;
 }
